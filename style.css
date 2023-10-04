@@ -75,4 +75,19 @@ header{
     border: 1px solid #ccc;
     border-radius: 30px;
     height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper span{
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.search-wrapper input{
+    height: 100%;
+    padding: .5rem;
+    border: none;
+    outline: none;
 }
