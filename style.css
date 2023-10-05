@@ -48,7 +48,9 @@
 .sidebar-menu li {
     width: 100%;
     margin-bottom: 1.3rem;
-    padding-left: 2rem;
+    padding-left: 2rem; 
+    margin: 10px;
+    
 }
 
 .sidebar-menu a{
