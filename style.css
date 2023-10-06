@@ -137,8 +137,30 @@ header label span{
 }
 
 main{
-    margin-top: 90px;
+    margin-top: 89px;
     padding: 2rem 1.5rem;
     background: #f0f0f0;
     min-height: calc(100vh - 90px);
 }
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 2px;
+}
+
+.card-single span:last-child{
+    font-size: 3rem;
+}
+.card-single span:first-child{
+    color: var(--text-grey);
+}
+
